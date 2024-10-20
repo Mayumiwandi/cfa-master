@@ -1,0 +1,9 @@
+proxies:
+- name: simaster
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: c2d76460-8d35-11ef-8d55-1239d0255272
+  udp: true
+  sni: io.ruangguru.com
+  skip-cert-verify: true
