@@ -103,8 +103,10 @@ dns:
   fake-ip-range: 198.18.0.1/16
 proxy-providers:
   AKUN GSM:
-    type: file
+    type: http
+    url: https://raw.githubusercontent.com/masterwifinetworksolution/cfa-master/refs/heads/master/account-master1.yaml
     path: "./account-master1.yaml"
+    interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
