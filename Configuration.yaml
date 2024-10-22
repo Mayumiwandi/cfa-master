@@ -104,7 +104,7 @@ dns:
 proxy-providers:
   AKUN GSM:
     type: http
-    url: https://raw.githubusercontent.com/masterwifinetworksolution/cfa-master/refs/heads/master/account-master1.yaml
+    url: https://raw.githubusercontent.com/Mayumiwandi/cfa-master/refs/heads/master/account-master1.yaml
     path: "./account-master1.yaml"
     interval: 3600
     health-check:
