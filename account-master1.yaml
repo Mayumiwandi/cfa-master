@@ -7,3 +7,22 @@ proxies:
   udp: true
   sni: io.ruangguru.com
   skip-cert-verify: true
+
+- name: US﻿ +VMESS-WS NTLS(2024-10-28)
+  type: vmess
+  server: quiz.int.vidio.com
+  port: 80
+  uuid: 8dd30860-8f76-11ef-b936-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  servername: us1.socifiles.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: us1.socifiles.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
